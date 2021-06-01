@@ -8,7 +8,7 @@ import java.io.IOException;
  * @project adaptris-regulatory-compliance
  */
 public class ByteArrayDemo {
-    public static void main2(String[] args) throws IOException {
+    public static void main21(String[] args) throws IOException {
         byte c1[]={10,20,30,40,50};
         byte c2[]={60,70,80,90};
         ByteArrayOutputStream b1 = new ByteArrayOutputStream();
@@ -30,7 +30,10 @@ public class ByteArrayDemo {
 
     }
 
-    public static void main3(String[] args) {
+    public static void main(String[] args) {
+
+
+
         byte[] bytes = {2, 3, 4, 5};
         for (final  int i:getCharArray(bytes)){
             System.out.println("i = " + i);
@@ -48,7 +51,7 @@ public class ByteArrayDemo {
         return chars;
     }
 
-    public static void main(String[] args) {
+    public static void main3(String[] args) {
         Integer before = new Integer(25);
         Integer after=++before==26?5:new Integer(10);
         System.out.println(after.intValue()-before.intValue());
