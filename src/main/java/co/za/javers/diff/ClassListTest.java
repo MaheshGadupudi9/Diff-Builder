@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project edit
  */
 public class ClassListTest {
     public static void main(String[] args) throws IOException {
