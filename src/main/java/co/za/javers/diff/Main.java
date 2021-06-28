@@ -7,13 +7,17 @@ import java.util.*;
 import java.util.function.Consumer;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main2(String[] args) throws FileNotFoundException {
       boolean b =false;
       int n=5;
         System.out.println(b||n==5);
         System.out.println(b=true&&n==5);
         System.out.println(b);
 
+    }
+
+    public static void main(String[] args) {
+        System.out.printf("%s,%s,%s",Element.HELIUM.toString(),Element.HELIUM.getSymbol(),Element.HELIUM.getNature());
     }
 
 }
