@@ -8,7 +8,7 @@ import java.io.IOException;
  * @project adaptris-regulatory-compliance
  */
 public class ByteArrayDemo {
-    public static void main21(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         byte c1[]={10,20,30,40,50};
         byte c2[]={60,70,80,90};
         ByteArrayOutputStream b1 = new ByteArrayOutputStream();
@@ -30,7 +30,7 @@ public class ByteArrayDemo {
 
     }
 
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
 
 
 

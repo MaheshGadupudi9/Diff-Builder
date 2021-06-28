@@ -20,9 +20,9 @@ public class TestInteger {
         return a+b;
     }
 
-    public static void main2(String[] args) {
+    public static void main(String[] args) {
         Integer x=3;
-        Integer y=x;
+        Integer y=null;
         try{
             System.out.println(Integer.compareUnsigned(x,3)==0 || Integer.compareUnsigned(y,0)==0);
         }
@@ -33,7 +33,7 @@ public class TestInteger {
         y=~x;
 
         try{
-            System.out.println(y.compareTo(3)==0||false);
+            System.out.println(y.compareTo(null)==0||true);
         }
         catch (Exception e){
             System.out.println(e.getClass().toString());
@@ -41,7 +41,7 @@ public class TestInteger {
     }
 
 
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         Console console = System.console();
         System.out.println(console);
     }
