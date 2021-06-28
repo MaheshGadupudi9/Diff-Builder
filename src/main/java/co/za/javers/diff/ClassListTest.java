@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * @author mahesh gadupudi
@@ -32,5 +33,13 @@ public class ClassListTest {
 
 //        new BufferedReader(new InputStreamReader(serverSocket.accept().getSt));
 
+    }
+
+    public static void m1(){
+//        Locale locale = new Locale("en", "Us", true);
+        Locale locale = Locale.forLanguageTag("");
+        locale = new Locale("th", "TH");
+//        Locale locale1 = new Locale();
+//         locale =  Locale.Builder().set
     }
 }

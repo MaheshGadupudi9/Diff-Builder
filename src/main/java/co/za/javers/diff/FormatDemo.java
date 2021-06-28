@@ -1,0 +1,34 @@
+package co.za.javers.diff;
+
+import java.text.ChoiceFormat;
+import java.text.Format;
+import java.text.MessageFormat;
+import java.text.NumberFormat;
+
+/**
+ * @author mahesh gadupudi
+ * @project adaptris-regulatory-compliance
+ */
+public class FormatDemo {
+    public static void main(String[] args) {
+        try {
+            double[] limits= {1,2,3};
+            String[] strArray = {"{2}","{2}","{2}"};
+            ChoiceFormat choiceFormat = new ChoiceFormat(limits, strArray);
+            Format[] formats= {choiceFormat,null, NumberFormat.getInstance()};
+            MessageFormat messageFormat = new MessageFormat("{0} out of {2}");
+            messageFormat.setFormats(formats);
+
+            Object[] testArgs ={null,"3",null};
+
+            for (int i = 0; i < 4; ++i) {
+                testArgs[0]= new Integer(i);
+                testArgs[2]=testArgs[0];
+                System.out.println(messageFormat.format(testArgs));
+
+            }
+        }catch (Exception e){
+            System.out.println(e.getClass());
+        }
+    }
+}
