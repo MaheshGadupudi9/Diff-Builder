@@ -20,11 +20,9 @@ public class ByteArrayDemo {
         byte[] b = b2.toByteArray();
         System.out.println("b.length = " + b.length);
         b2.flush();
-        System.out.println("b2 = " + b2.size()
-        );
+        System.out.println("b2 = " + b2.size());
         b2.reset();
-        System.out.println("b2 = " + b2.size()
-        );
+        System.out.println("b2 = " + b2.size());
         b1.writeTo(b2);
         System.out.println("b1 = " + b1.size());
 

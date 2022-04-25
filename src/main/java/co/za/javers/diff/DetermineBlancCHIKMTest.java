@@ -6,7 +6,7 @@ package co.za.javers.diff;
  */
 public class DetermineBlancCHIKMTest {
     public static void main(String[] args) {
-        String str = " a b a ";
+    /*    String str = " a b a ";
 
         String newChars = str.strip().repeat(4);
 
@@ -21,5 +21,5 @@ public class DetermineBlancCHIKMTest {
         }
 
         System.out.println("blank = " + blank);
-    }
+    */}
 }

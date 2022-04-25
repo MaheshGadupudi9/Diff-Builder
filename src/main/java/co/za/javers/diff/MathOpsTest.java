@@ -1,5 +1,10 @@
 package co.za.javers.diff;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.nio.file.Files;
+
 /**
  * @author mahesh gadupudi
  * @project adaptris-regulatory-compliance
@@ -22,6 +27,18 @@ public class MathOpsTest {
     public static void main(String[] args) {
         System.out.println(dosum());
         System.out.println(dominus());
+
+     /*   new FileOutputStream(new File()).tr*/
+
+
+        int i =10, j=22;
+
+        for(;;){
+            if(i++<j--)
+                continue;
+            else break;
+            //System.out.println(i+" "+j); java: unreachable statement
+        }
     }
 
 

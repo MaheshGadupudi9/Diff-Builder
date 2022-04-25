@@ -11,15 +11,15 @@ import java.sql.Statement;
  */
 public class SqlTestIKM {
 
-    public static int getNumberColumns(Connection connection, String tableName) throws SQLException {
+    public static void getNumberColumns(Connection connection, String tableName) throws SQLException {
 
-        var query= "select * from "+tableName;
+      /*  var query= "select * from "+tableName;
 
         var statement = connection.createStatement();
 
         var resultSet = statement.executeQuery(query);
 
-        return resultSet.getMetaData().getColumnCount();
+        return resultSet.getMetaData().getColumnCount();*/
     }
 
 

@@ -17,6 +17,6 @@ public class SetTest {
         set.add("3");
         set.add("1");
 
-        set.forEach(s-> System.out.println(s+"-"));
+        set.forEach(s-> System.out.print(s+"-"));
     }
 }

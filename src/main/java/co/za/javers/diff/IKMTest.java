@@ -9,6 +9,7 @@ public class IKMTest {
 
     public IKMTest() {
         this(10);
+        //System.getProperties().
     }
 
     public IKMTest(int i) {

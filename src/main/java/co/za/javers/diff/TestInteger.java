@@ -30,7 +30,7 @@ public class TestInteger {
             System.out.println(e.getClass().toString());
         }
 
-        y=~x;
+       //y=~x;
 
         try{
             System.out.println(y.compareTo(null)==0||true);

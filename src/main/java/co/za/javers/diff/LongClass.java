@@ -11,11 +11,11 @@ import java.util.stream.Stream;
  * @project adaptris-regulatory-compliance
  */
 public class LongClass {
-    public static void main2(String[] args) {
+    public static void main(String[] args) {
         Long l = new Long(1234);
         Long l1=l;
-        if(l==l1) System.out.println("EO"); else System.out.println("NEO"); l++;
-        if(l==l1) System.out.println("EO"); else System.out.println("NEO");
+        if(l==l1) System.out.println("Equal Objects"); else System.out.println("Not Equal Objects"); l++;
+        if(l==l1) System.out.println("Equal Objects"); else System.out.println("Not Equal Objects");
 
         ArrayList<String> strings = new ArrayList<>();
         strings.add("1");
@@ -24,10 +24,13 @@ public class LongClass {
         strings.add(1,"4");
         strings.forEach(System.out::println);
 
-        System.out.println(Stream.of("green","yellow","blue").max((s1,s2)->s1.compareTo(s2)).filter(s->s.endsWith("n")).orElse("yellow"));
+        System.out.println(Stream.of("green","yellow","blue")
+                .max((s1,s2)->s1.compareTo(s2))
+                .filter(s->s.endsWith("n"))
+                .orElse("yellow"));
     }
 
-    public static void main(String[] args) {
+    public static void main3(String[] args) {
 
         Date dateToUse=new Date();
 
