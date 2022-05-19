@@ -2,7 +2,7 @@ package co.za.javers.diff.newp;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class _4KTest {
 

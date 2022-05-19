@@ -5,7 +5,7 @@ import java.util.Locale;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class NumberFornatterDemo {
     public static void main(String[] args) {

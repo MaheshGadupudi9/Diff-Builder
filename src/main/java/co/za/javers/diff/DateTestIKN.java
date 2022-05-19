@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class DateTestIKN {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ import java.util.Formatter;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class FormatTest {
     public static void main(String[] args) {

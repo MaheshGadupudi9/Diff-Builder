@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class StringBuilderDemoTestIKM {
 

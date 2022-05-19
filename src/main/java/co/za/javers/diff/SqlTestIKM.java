@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class SqlTestIKM {
 

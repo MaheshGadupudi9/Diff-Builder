@@ -6,7 +6,7 @@ import javax.script.ScriptException;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class EmbededJavaScript {
     public static void main(String[] args) {

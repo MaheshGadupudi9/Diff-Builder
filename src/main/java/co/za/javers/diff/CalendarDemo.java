@@ -6,7 +6,7 @@ import java.util.Calendar;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class CalendarDemo {
     public static void main(String[] args) {

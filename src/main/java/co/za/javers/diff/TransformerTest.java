@@ -9,7 +9,7 @@ import java.util.function.Function;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class TransformerTest {
     static Integer transform(Integer i, Integer j, BiFunction<Integer,Integer,Integer> f,

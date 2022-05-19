@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class ListTestException {
     public static void main(String[] args) {

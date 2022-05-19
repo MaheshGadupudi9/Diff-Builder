@@ -2,7 +2,7 @@ package co.za.javers.diff;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class ExceptionThrowDemo {
     static String message;

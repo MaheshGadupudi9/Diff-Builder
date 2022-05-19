@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class TestWriteClass {
     public static void main2(String[] args) throws IOException {

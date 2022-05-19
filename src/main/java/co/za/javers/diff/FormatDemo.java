@@ -7,7 +7,7 @@ import java.text.NumberFormat;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class FormatDemo {
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class MaxProfit {
     public int maxProfit(int n, String s, String q) {

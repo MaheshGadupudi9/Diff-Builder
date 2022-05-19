@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class IKMFileTest {
     public static void main(String[] args) throws IOException {

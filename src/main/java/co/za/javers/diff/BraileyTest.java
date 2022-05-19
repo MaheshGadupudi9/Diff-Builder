@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class BraileyTest {
 

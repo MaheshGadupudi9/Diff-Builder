@@ -7,7 +7,7 @@ import java.nio.file.Files;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class MathOpsTest {
     static int num2=getValue();

@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class PhoneNUmberValidator {
     public static void main(String[] args) {

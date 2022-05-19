@@ -5,7 +5,7 @@ import java.io.IOException;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class ByteArrayDemo {
     public static void main(String[] args) throws IOException {

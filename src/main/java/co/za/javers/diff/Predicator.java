@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 class MyPredicate<T> implements Predicate<T>{
 

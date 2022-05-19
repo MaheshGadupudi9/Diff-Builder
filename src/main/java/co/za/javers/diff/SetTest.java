@@ -4,7 +4,7 @@ import java.util.LinkedHashSet;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class SetTest {
     public static void main(String[] args) {

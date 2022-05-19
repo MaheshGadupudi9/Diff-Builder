@@ -6,7 +6,7 @@ import java.util.GregorianCalendar;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class LeapYearTest {
     public static void main(String[] args) {

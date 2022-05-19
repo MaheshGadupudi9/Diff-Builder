@@ -5,7 +5,7 @@ import java.nio.channels.ServerSocketChannel;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class ScoketChannnelTestIKM {
     ServerSocketChannel serverSocketChannel;

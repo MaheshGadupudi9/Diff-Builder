@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 
 interface Account{

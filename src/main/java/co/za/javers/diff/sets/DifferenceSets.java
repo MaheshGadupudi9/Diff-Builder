@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * @author mahesh gadupudi
- * @project adaptris-regulatory-compliance
+ * @project diff-builder
  */
 public class DifferenceSets {
 
