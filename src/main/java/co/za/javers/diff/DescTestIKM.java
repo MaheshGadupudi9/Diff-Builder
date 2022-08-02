@@ -10,9 +10,9 @@ import java.util.stream.Collectors;
  */
 public class DescTestIKM {
     public static void main(String[] args) {
-        List<Integer> integers = List.of(0, 3, 4, 1, 9, 6, 2, 1, 2);
+       /* List<Integer> integers = List.of(0, 3, 4, 1, 9, 6, 2, 1, 2);
         List<Integer> collect = integers.stream().sorted(Comparator.reverseOrder()).filter(s -> s % 3 == 0).collect(Collectors.toList());
-        System.out.println(collect);
+        System.out.println(collect);*/
 
     }
 }

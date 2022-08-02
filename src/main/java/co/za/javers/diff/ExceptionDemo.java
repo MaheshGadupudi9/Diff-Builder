@@ -13,10 +13,10 @@ public class ExceptionDemo {
         Optional<String> b = Optional.empty();
 
         try {
-            System.out.println(a.length());
-            System.out.println(b.orElse("").length());
+            System.out.println("A:"+a.length());
+            System.out.println("B:"+b.orElse("").length());
         }catch (Exception e){
-            System.out.println(a);
+            System.out.println("exception"+a);
         }
 
         finally {

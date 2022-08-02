@@ -6,6 +6,7 @@ public class IkmTestBlock
 
     static {
         System.out.println("In Block 1");
+        System.gc();
         count = 10;
     }
     private int [] data ;

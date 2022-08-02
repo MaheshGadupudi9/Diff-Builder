@@ -3,9 +3,14 @@ package co.za.javers.diff;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
+import java.util.function.BiFunction;
+import java.util.function.BinaryOperator;
 
 /**
  * @author mahesh gadupudi
@@ -14,6 +19,8 @@ import java.util.Date;
 public class DateTestIKN {
     public static void main(String[] args) {
         Date date;
+        //BiFunction
+       // BinaryOperator
 
         try {
             date = new SimpleDateFormat("yyyy-mm-dd").parse("2020-01-15");
@@ -51,5 +58,9 @@ public class DateTestIKN {
 
     public void setAb(int ab) {
         this.ab = ab;
+    }
+
+    public int getc(List<? extends Number> param){
+        return 1;
     }
 }

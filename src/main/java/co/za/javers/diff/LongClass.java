@@ -2,6 +2,7 @@ package co.za.javers.diff;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.stream.Stream;
@@ -28,6 +29,12 @@ public class LongClass {
                 .max((s1,s2)->s1.compareTo(s2))
                 .filter(s->s.endsWith("n"))
                 .orElse("yellow"));
+
+        System.out.println("+++++++++");
+        Arrays.asList("red","green","blue").stream().map(s->!s.startsWith("b")).forEach(System.out::println);
+        Arrays.asList("red","green","blue").stream().filter(s->!s.startsWith("b")).forEach(System.out::println);
+       // Arrays.asList("red","green","blue").stream().reduce((s1,s2)->s2.equals("blue")?s1:s2).forEach(System.out::println);
+        System.out.println("+++++++++");
     }
 
     public static void main3(String[] args) {

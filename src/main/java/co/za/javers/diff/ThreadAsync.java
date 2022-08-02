@@ -1,5 +1,7 @@
 package co.za.javers.diff;
 
+import java.util.concurrent.CompletableFuture;
+
 /**
  * @author mahesh gadupudi
  * @project diff-builder
@@ -9,7 +11,9 @@ public class ThreadAsync {
          AsyncWork asyncWork = new AsyncWork();
         final Thread thread = new Thread(asyncWork);
       //  thread.se
-        thread.start();
+       thread.start();
+
+        CompletableFuture.runAsync(asyncWork).join();
     }
 }
 

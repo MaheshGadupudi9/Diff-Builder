@@ -21,9 +21,13 @@ public class PersonTestIKM {
         people.stream().reduce((e1,e2)->{
             x=e1.id;
 
-            if(e1.id>e2.id) return e1;
+            if(e1.id>e2.id){
+                System.out.println(e1);
+                return e1;
+            }
 
             x=e2.id;
+                    System.out.println(e2);
             return e2;
                 }
         ).flatMap(e-> Optional.ofNullable(e.name))
@@ -50,8 +54,7 @@ class Person{
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                '}';
+        return
+                "name='" + name +", id=" + id ;
     }
 }

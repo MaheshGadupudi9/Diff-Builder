@@ -15,12 +15,12 @@ public class NumberFornatterDemo {
         NumberFormat ne= NumberFormat.getInstance(Locale.ENGLISH);
         nf.setMaximumFractionDigits(2);
         ne.setMaximumFractionDigits(3);
-        System.out.println(nf.format(d));
-        System.out.println(ne.format(d));
+        System.out.println("NUM FR"+nf.format(d));
+        System.out.println("NUM EN"+ne.format(d));
         try
         {
-            System.out.println(nf.parse(s));
-            System.out.println(ne.parse(s));
+            System.out.println("STR FR"+nf.parse(s));
+            System.out.println("STR EN"+ne.parse(s));
         }
         catch (Exception e) {System.out.println(e.getClass());}
 
