@@ -77,7 +77,7 @@ public class JDiffBuilderApplication {
 				System.out.println(valueChange);
 				Object left = valueChange.getLeft();
 				Object right = valueChange.getRight();
-				System.out.println("valueChange = " + valueChange.getProperty());
+				System.out.println("valueChange = " + valueChange.getPropertyName());
 				System.out.println("left = " + left);
 				System.out.println("right = " + right);
 			}
