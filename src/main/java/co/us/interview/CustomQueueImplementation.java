@@ -1,5 +1,7 @@
 package co.us.interview;
 
+import java.util.Arrays;
+
 public class CustomQueueImplementation {
     public static void main(String[] args) {
         //FIFO
@@ -14,6 +16,7 @@ public class CustomQueueImplementation {
         System.out.println(qu.get(0));
         System.out.println(qu.get(1));
         System.out.println(qu.get(2));
+        System.out.println("qu = " + qu);
         System.out.println(qu.isEmpty());
         System.out.println(qu.isFull());
         System.out.println(qu.getFront());
@@ -21,11 +24,12 @@ public class CustomQueueImplementation {
         System.out.println(qu.remove(1));
         System.out.println(qu.getRear());
         System.out.println(qu.size());
+        System.out.println("qu = " + qu);
     }
 }
 
 class Queue {
-    private final int[] bucket;
+    private final Integer[] bucket;
     private final int front;
     private int size;
     private int current;
@@ -39,7 +43,7 @@ class Queue {
         this.size = size;
         this.current = -1;
         this.front = 0;
-        this.bucket = new int[size];
+        this.bucket = new Integer[size];
     }
 
     public void add(int value) {
@@ -66,6 +70,7 @@ class Queue {
         // should move values between indexes
         reAdjust(index);
         --current;
+        rear=current;
         return temp;
     }
 
@@ -73,6 +78,7 @@ class Queue {
         for (int i = index; (i < current); i++) {
             bucket[i] = bucket[i + 1];
         }
+        bucket[current] = null;
     }
 
     public boolean isFull() {
@@ -99,6 +105,13 @@ class Queue {
             return Integer.MAX_VALUE;
         }
         return bucket[rear];
+    }
+
+    @Override
+    public String toString() {
+        return "Queue{" +
+                "bucket=" + Arrays.toString(bucket) +
+                '}';
     }
 }
 
